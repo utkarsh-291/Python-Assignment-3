@@ -1,6 +1,5 @@
-# Assignment 3 - 
+# Assignment 3 - Add QUIZ module in Student Management System (Ass. 2)
 
-## Project Info
 * **Name:** Utkarsh Gupte
 * **Enrollment:** 0103CS231441
 * **Batch:** BATCH 6 (Mtf)
@@ -14,20 +13,20 @@
 * **Forgot Password:** Recovery mechanism using the security question answer.
 
 ### Student Module
-* **Profile Management:** View and update personal details (Name, Email, Phone).
+* **Profile Management:** View and update personal details.
 * **Change Password:** Securely update login credentials.
 * **Take Quiz:** Attempt quizzes in three categories:
-    * DSA (Data Structures & Algorithms)
-    * DBMS (Database Management Systems)
+    * DSA
+    * DBMS
     * Python Programming
 * **Scoring:** Instant score calculation and result saving.
 
 ### Admin Module
 * **View Users:** List all registered students.
 * **View Results:** Track performance and scores of all students.
-* **View Questions:** Review the question bank for all categories.
+* **View Questions:** View the questions for all categories.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Data Storage:** JSON (File Handling) for storage of users and results.
 * **Libraries:** `json`, `random`, `datetime`.
